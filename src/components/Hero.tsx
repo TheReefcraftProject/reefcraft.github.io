@@ -31,7 +31,7 @@ const Hero = () => {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-ocean-100 mb-8 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed">
               Reefcraft is an open-source platform for simulating coral growth and reef ecosystems 
               using scientifically grounded, physically based models. Together, we're creating digital 
               tools to understand, protect, and restore our ocean's most precious ecosystems.
