@@ -36,7 +36,7 @@ const Science = () => {
   ];
 
   return (
-    <section id="science" className="py-20 bg-ocean-800">
+    <section id="science" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -77,7 +77,7 @@ const Science = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="/c210821e-bcf2-411d-839b-46f484cef3e5.jpg" 
                   alt="Close-up of coral polyps"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
@@ -158,7 +158,7 @@ const Science = () => {
 
             <div className="text-center mt-12">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-white text-ocean-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-sand-50 transition-colors duration-200 transform hover:scale-105"

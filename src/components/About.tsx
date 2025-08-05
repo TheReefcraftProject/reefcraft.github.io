@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-ocean-800 to-ocean-900">
+    <section id="about" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Mission Statement */}
@@ -89,7 +89,7 @@ const About = () => {
               <div className="relative h-96 md:h-full">
                 <div className="absolute inset-0 bg-gradient-to-br from-coral-400/20 to-teal-400/20"></div>
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="/c210821e-bcf2-411d-839b-46f484cef3e5.jpg" 
                   alt="Vibrant coral reef ecosystem"
                   className="w-full h-full object-cover"
                 />
