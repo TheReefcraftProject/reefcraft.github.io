@@ -42,7 +42,7 @@ const Header = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
-                className={`font-medium transition-colors duration-200 hover:text-coral-500 ${
+                className={`font-medium transition-colors duration-200 hover:text-teal-500 ${
                   isScrolled ? 'text-gray-800' : 'text-white'
                 }`}
               >
@@ -51,10 +51,10 @@ const Header = () => {
             ))}
             <div className="flex items-center space-x-3 ml-4">
               <a
-                href="https://github.com/TheReefcraftProject"
+                href="https://github.com/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-coral-500/20 ${
+                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
                   isScrolled ? 'text-gray-800' : 'text-white'
                 }`}
               >
@@ -64,7 +64,7 @@ const Header = () => {
                 href="https://discord.gg/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-coral-500/20 ${
+                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
                   isScrolled ? 'text-gray-800' : 'text-white'
                 }`}
               >
@@ -100,10 +100,10 @@ const Header = () => {
             ))}
             <div className="flex items-center justify-center space-x-4 mt-4 pt-4 border-t border-gray-200">
               <a
-                href="https://github.com/TheReefcraftProject"
+                href="https://github.com/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 text-gray-600 hover:text-coral-500 transition-colors duration-200"
+                className="p-2 text-gray-600 hover:text-teal-500 transition-colors duration-200"
               >
                 <GitHub className="w-5 h-5" />
               </a>
@@ -111,7 +111,7 @@ const Header = () => {
                 href="https://discord.gg/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 text-gray-600 hover:text-coral-500 transition-colors duration-200"
+                className="p-2 text-gray-600 hover:text-teal-500 transition-colors duration-200"
               >
                 <MessageCircle className="w-5 h-5" />
               </a>

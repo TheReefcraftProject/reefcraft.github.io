@@ -3,7 +3,7 @@ import { Mail, Github as GitHub, MessageCircle, Send, Globe, Heart } from 'lucid
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20" style={{ backgroundColor: '#100F0D' }}>
+    <section id="contact" className="py-20 bg-gradient-to-br from-ocean-900 via-ocean-800 to-teal-900">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">

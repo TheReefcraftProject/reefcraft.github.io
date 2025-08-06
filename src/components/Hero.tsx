@@ -14,10 +14,11 @@ const Hero = () => {
       {/* Coral Reef Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="/18be7210-d9bf-472f-86c0-db27406b2237.jpg" 
-          alt="Coral reef background"
+          src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
+          alt="Manta ray swimming in deep blue ocean"
           className="w-full h-full object-cover opacity-100"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-ocean-900/80 via-ocean-800/70 to-ocean-900/90"></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
@@ -30,7 +31,7 @@ const Hero = () => {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-ocean-100 mb-8 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed">
               Reefcraft is an open-source platform for simulating coral growth and reef ecosystems 
               using scientifically grounded, physically based models. Together, we're creating digital 
               tools to understand, protect, and restore our ocean's most precious ecosystems.
