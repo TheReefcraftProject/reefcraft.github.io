@@ -39,7 +39,6 @@ const GetInvolved = () => {
   ];
 
   return (
-    <section id="get-involved" className="py-20 bg-gradient-to-b from-ocean-800 to-ocean-900">
     <section id="get-involved" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
