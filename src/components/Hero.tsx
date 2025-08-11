@@ -14,8 +14,8 @@ const Hero = () => {
       {/* Coral Reef Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
-          alt="Manta ray swimming in deep blue ocean"
+          src="./public/WhatsApp Image 2025-07-22 at 19.40.16.jpeg" 
+          alt="Coral reef background"
           className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ocean-900/80 via-ocean-800/70 to-ocean-900/90"></div>
