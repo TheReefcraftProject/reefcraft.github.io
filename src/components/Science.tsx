@@ -36,7 +36,7 @@ const Science = () => {
   ];
 
   return (
-    <section id="science" className="py-20 bg-ocean-800">
+    <section id="science" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
