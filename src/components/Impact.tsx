@@ -150,6 +150,7 @@ const Impact = () => {
         </div>
       </div>
     </section>
+    </section>
   );
 };
 
