@@ -118,7 +118,7 @@ const Impact = () => {
               </div>
               <div className="relative h-96 md:h-full">
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="./public/WhatsApp Image 2025-07-22 at 19.40.16.jpeg" 
                   alt="Thriving coral reef ecosystem"
                   className="w-full h-full object-cover"
                 />
