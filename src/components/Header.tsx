@@ -23,10 +23,13 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled ? 'backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
+      <div className={`absolute inset-0 transition-all duration-300 ${
+        isScrolled ? 'opacity-100' : 'opacity-0'
+      }`} style={{ backgroundColor: '#100F0D' }}></div>
       <nav className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between relative z-10">
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-coral-500 to-coral-600 rounded-lg flex items-center justify-center">
               <div className="w-6 h-6 bg-white rounded-full opacity-80"></div>
@@ -43,7 +46,7 @@ const Header = () => {
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
                 className={`font-medium transition-colors duration-200 hover:text-teal-500 ${
-                  isScrolled ? 'text-gray-800' : 'text-white'
+                  isScrolled ? 'text-white' : 'text-white'
                 }`}
               >
                 {item}
@@ -55,7 +58,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
-                  isScrolled ? 'text-gray-800' : 'text-white'
+                  isScrolled ? 'text-white' : 'text-white'
                 }`}
               >
                 <GitHub className="w-5 h-5" />
@@ -65,7 +68,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
-                  isScrolled ? 'text-gray-800' : 'text-white'
+                  isScrolled ? 'text-white' : 'text-white'
                 }`}
               >
                 <MessageCircle className="w-5 h-5" />
@@ -79,9 +82,9 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className={`w-6 h-6 ${isScrolled ? 'text-gray-800' : 'text-white'}`} />
+              <X className={`w-6 h-6 ${isScrolled ? 'text-white' : 'text-white'}`} />
             ) : (
-              <Menu className={`w-6 h-6 ${isScrolled ? 'text-gray-800' : 'text-white'}`} />
+              <Menu className={`w-6 h-6 ${isScrolled ? 'text-white' : 'text-white'}`} />
             )}
           </button>
         </div>
