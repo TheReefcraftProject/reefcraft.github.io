@@ -42,13 +42,6 @@ const Hero = () => {
                 Explore the Project
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
-              
-              <button className="group flex items-center text-white font-semibold text-lg hover:text-coral-300 transition-colors duration-200">
-                <div className="bg-white/20 p-3 rounded-full mr-3 group-hover:bg-white/30 transition-colors duration-200">
-                  <Play className="w-6 h-6 fill-current" />
-                </div>
-                Watch Simulation Demo
-              </button>
             </div>
 
             {/* Quick Stats */}
