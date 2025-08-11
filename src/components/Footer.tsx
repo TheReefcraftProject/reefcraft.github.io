@@ -3,7 +3,7 @@ import { Heart, Github as GitHub, MessageCircle, Mail, Globe } from 'lucide-reac
 
 const Footer = () => {
   return (
-    <footer className="bg-ocean-900 text-white py-12">
+    <footer className="text-white py-12" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
