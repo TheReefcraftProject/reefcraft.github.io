@@ -51,7 +51,7 @@ const Header = () => {
             ))}
             <div className="flex items-center space-x-3 ml-4">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
@@ -100,7 +100,7 @@ const Header = () => {
             ))}
             <div className="flex items-center justify-center space-x-4 mt-4 pt-4 border-t border-gray-200">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-teal-500 transition-colors duration-200"

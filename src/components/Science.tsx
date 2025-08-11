@@ -158,7 +158,7 @@ const Science = () => {
 
             <div className="text-center mt-12">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-white text-ocean-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-sand-50 transition-colors duration-200 transform hover:scale-105"

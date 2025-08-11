@@ -99,7 +99,7 @@ const GetInvolved = () => {
             
             <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-white/20 backdrop-blur-sm p-6 rounded-xl hover:bg-white/30 transition-all duration-200 transform hover:scale-105"
