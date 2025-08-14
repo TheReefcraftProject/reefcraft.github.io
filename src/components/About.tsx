@@ -34,7 +34,7 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-ocean-900 mb-6">
               Our Mission
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed mb-8">
               We believe that understanding coral reef ecosystems through advanced simulation 
               can accelerate conservation efforts and inspire a new generation of ocean stewards. 
               Reefcraft democratizes access to cutting-edge reef modeling technology, making it 
@@ -56,7 +56,7 @@ const About = () => {
                 <h3 className="text-xl font-bold text-ocean-900 mb-4">
                   {highlight.title}
                 </h3>
-                <p className="text-ocean-200 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {highlight.description}
                 </p>
               </div>
