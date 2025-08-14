@@ -47,7 +47,8 @@ const About = () => {
             {highlights.map((highlight, index) => (
               <div
                 key={index}
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-ocean-100"
+                className="group p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-ocean-100"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
                   {highlight.icon}
