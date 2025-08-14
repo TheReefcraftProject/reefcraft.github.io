@@ -46,7 +46,8 @@ const GetInvolved = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Join the Reef Revolution
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white
+            max-w-4xl mx-auto leading-relaxed">
               Reefcraft is powered by a global community of passionate individuals who believe 
               in the power of open science and technology to protect our oceans. There's a place 
               for everyone in our mission to save coral reefs.
