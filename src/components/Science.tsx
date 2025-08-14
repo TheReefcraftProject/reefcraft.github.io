@@ -162,6 +162,7 @@ const Science = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-100"
+                className="group p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-100"
                 style={{ backgroundColor: '#2C4F59' }}
               >
                 <GitHub className="w-5 h-5 mr-2" />
