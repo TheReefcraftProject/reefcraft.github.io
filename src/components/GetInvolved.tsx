@@ -90,11 +90,10 @@ const GetInvolved = () => {
           {/* Current Needs */}
           {/* Get Started */}
           <div className="bg-gradient-to-r from-ocean-600 to-teal-600 rounded-3xl p-12 text-white text-center">
-            <h3 className="text-3xl font-bold mb-6 
-              ">
+            <h3 className="text-3xl font-bold mb-6 text-white">
               Ready to Make a Difference?
             </h3>
-            <p className="text-xl text-ocean-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-white mb-8 max-w-3xl mx-auto leading-relaxed">
               Whether you have 5 minutes or 5 hours a week, your contribution can help protect 
               coral reefs for future generations. Join our community and start making an impact today.
             </p>
