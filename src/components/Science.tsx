@@ -43,7 +43,7 @@ const Science = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               The Science Behind Reefcraft
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed">
               Our simulation engine combines marine biology, physics, and computer science to create 
               accurate models of coral reef ecosystems. Every aspect is grounded in peer-reviewed 
               research and real-world data.
