@@ -70,14 +70,14 @@ const About = () => {
                 <h3 className="text-3xl font-bold mb-6">
                   Our Story
                 </h3>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                <p className="text-lg text-white mb-6 leading-relaxed">
                   Reefcraft began as a vision to bridge the gap between marine science and 
                   technology. Recognizing that coral reefs are among Earth's most complex 
                   and threatened ecosystems, we set out to create tools that could help 
                   scientists, educators, and conservationists better understand these 
                   underwater worlds.
                 </p>
-                <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                <p className="text-lg text-white mb-8 leading-relaxed">
                   Today, we're building a global community of contributors who share our 
                   passion for ocean conservation and open science. Together, we're creating 
                   digital twin reefs that could revolutionize how we study, protect, and 
