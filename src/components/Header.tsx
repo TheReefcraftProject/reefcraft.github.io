@@ -34,7 +34,7 @@ const Header = () => {
             <div className="w-10 h-10 bg-gradient-to-br from-coral-500 to-coral-600 rounded-lg flex items-center justify-center">
               <div className="w-6 h-6 bg-white rounded-full opacity-80"></div>
             </div>
-            <div className="text-2xl font-bold text-ocean-600">
+            <div className="text-2xl font-bold text-white">
               Reefcraft
             </div>
           </div>
