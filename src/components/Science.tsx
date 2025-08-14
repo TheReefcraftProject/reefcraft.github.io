@@ -136,7 +136,7 @@ const Science = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-teal-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#C1D3BD' }}>
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-bold mb-4">Physics Simulation</h4>
