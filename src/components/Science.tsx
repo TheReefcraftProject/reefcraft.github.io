@@ -104,7 +104,7 @@ const Science = () => {
                   <h4 className="text-xl font-bold text-white mb-4">
                     {input.title}
                   </h4>
-                  <p className="text-ocean-200 leading-relaxed">
+                  <p className="text-white leading-relaxed">
                     {input.description}
                   </p>
                 </div>
