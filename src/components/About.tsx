@@ -26,15 +26,15 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-ocean-800 to-ocean-900">
+    <section id="about" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Mission Statement */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-ocean-900 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Our Mission
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed mb-8">
               We believe that understanding coral reef ecosystems through advanced simulation 
               can accelerate conservation efforts and inspire a new generation of ocean stewards. 
               Reefcraft democratizes access to cutting-edge reef modeling technology, making it 
@@ -47,15 +47,16 @@ const About = () => {
             {highlights.map((highlight, index) => (
               <div
                 key={index}
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-ocean-100"
+                className="group p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-ocean-100"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
                   {highlight.icon}
                 </div>
-                <h3 className="text-xl font-bold text-ocean-900 mb-4">
+                <h3 className="text-xl font-bold text-white mb-4">
                   {highlight.title}
                 </h3>
-                <p className="text-ocean-200 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {highlight.description}
                 </p>
               </div>
@@ -69,14 +70,14 @@ const About = () => {
                 <h3 className="text-3xl font-bold mb-6">
                   Our Story
                 </h3>
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                <p className="text-lg text-white mb-6 leading-relaxed">
                   Reefcraft began as a vision to bridge the gap between marine science and 
                   technology. Recognizing that coral reefs are among Earth's most complex 
                   and threatened ecosystems, we set out to create tools that could help 
                   scientists, educators, and conservationists better understand these 
                   underwater worlds.
                 </p>
-                <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                <p className="text-lg text-white mb-8 leading-relaxed">
                   Today, we're building a global community of contributors who share our 
                   passion for ocean conservation and open science. Together, we're creating 
                   digital twin reefs that could revolutionize how we study, protect, and 
@@ -89,7 +90,7 @@ const About = () => {
               <div className="relative h-96 md:h-full">
                 <div className="absolute inset-0 bg-gradient-to-br from-coral-400/20 to-teal-400/20"></div>
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="./public/5842282798_aa6b923c04_b.jpg" 
                   alt="Vibrant coral reef ecosystem"
                   className="w-full h-full object-cover"
                 />
@@ -103,7 +104,7 @@ const About = () => {
             <h3 className="text-3xl font-bold text-white mb-6">
               Vision for the Future
             </h3>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed">
               We envision a world where digital reef simulations help guide restoration efforts, 
               where students can explore coral ecosystems in immersive detail, and where 
               researchers can test conservation strategies before implementing them in the real world. 

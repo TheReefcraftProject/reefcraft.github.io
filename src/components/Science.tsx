@@ -36,14 +36,14 @@ const Science = () => {
   ];
 
   return (
-    <section id="science" className="py-20 bg-ocean-800">
+    <section id="science" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               The Science Behind Reefcraft
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed">
               Our simulation engine combines marine biology, physics, and computer science to create 
               accurate models of coral reef ecosystems. Every aspect is grounded in peer-reviewed 
               research and real-world data.
@@ -77,7 +77,7 @@ const Science = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                  src="./public/5842282798_aa6b923c04_b.jpg" 
                   alt="Close-up of coral polyps"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
@@ -95,7 +95,8 @@ const Science = () => {
               {scientificInputs.map((input, index) => (
                 <div
                   key={index}
-                  className="group bg-ocean-700 hover:bg-ocean-600 p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                  className="group p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                  style={{ backgroundColor: '#2C4F59' }}
                 >
                   <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
                     {input.icon}
@@ -103,7 +104,7 @@ const Science = () => {
                   <h4 className="text-xl font-bold text-white mb-4">
                     {input.title}
                   </h4>
-                  <p className="text-ocean-200 leading-relaxed">
+                  <p className="text-white leading-relaxed">
                     {input.description}
                   </p>
                 </div>
@@ -135,7 +136,7 @@ const Science = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-teal-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ backgroundColor: '#C1D3BD' }}>
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-bold mb-4">Physics Simulation</h4>
@@ -158,10 +159,10 @@ const Science = () => {
 
             <div className="text-center mt-12">
               <a
-                href="https://github.com/reefcraft"
+                href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center bg-white text-ocean-900 px-8 py-4 rounded-full font-semibold text-lg hover:bg-sand-50 transition-colors duration-200 transform hover:scale-105"
+                className="inline-flex items-center bg-coral-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-600 transition-colors duration-200 transform hover:scale-105"
               >
                 <GitHub className="w-5 h-5 mr-2" />
                 Explore the Code

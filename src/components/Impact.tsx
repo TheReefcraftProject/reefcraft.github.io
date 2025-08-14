@@ -33,7 +33,7 @@ const Impact = () => {
   ];
 
   return (
-    <section id="impact" className="py-20 bg-ocean-800">
+    <section id="impact" className="py-20" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -118,7 +118,7 @@ const Impact = () => {
               </div>
               <div className="relative h-96 md:h-full">
                 <img 
-                  src="https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                  src="./public/5842282798_aa6b923c04_b.jpg" 
                   alt="Thriving coral reef ecosystem"
                   className="w-full h-full object-cover"
                 />

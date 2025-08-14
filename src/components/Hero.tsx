@@ -14,8 +14,8 @@ const Hero = () => {
       {/* Coral Reef Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
-          alt="Manta ray swimming in deep blue ocean"
+          src="./public/5842282798_aa6b923c04_b.jpg" 
+          alt="Coral reef background"
           className="w-full h-full object-cover opacity-100"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ocean-900/80 via-ocean-800/70 to-ocean-900/90"></div>
@@ -42,32 +42,25 @@ const Hero = () => {
                 Explore the Project
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
-              
-              <button className="group flex items-center text-white font-semibold text-lg hover:text-coral-300 transition-colors duration-200">
-                <div className="bg-white/20 p-3 rounded-full mr-3 group-hover:bg-white/30 transition-colors duration-200">
-                  <Play className="w-6 h-6 fill-current" />
-                </div>
-                Watch Simulation Demo
-              </button>
             </div>
 
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-coral-400 mb-1">Open</div>
-                <div className="text-ocean-200 text-sm">Source Platform</div>
+                <div className="text-2xl font-bold text-white mb-1">Open</div>
+                <div className="text-white text-sm">Source Platform</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-teal-400 mb-1">Science</div>
-                <div className="text-ocean-200 text-sm">Based Models</div>
+                <div className="text-2xl font-bold text-white mb-1">Science</div>
+                <div className="text-white text-sm">Based Models</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-coral-400 mb-1">Global</div>
-                <div className="text-ocean-200 text-sm">Community</div>
+                <div className="text-2xl font-bold text-white mb-1">Global</div>
+                <div className="text-white text-sm">Community</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-teal-400 mb-1">Real</div>
-                <div className="text-ocean-200 text-sm">Impact</div>
+                <div className="text-2xl font-bold text-white mb-1">Real</div>
+                <div className="text-white text-sm">Impact</div>
               </div>
             </div>
           </div>
@@ -76,8 +69,9 @@ const Hero = () => {
       
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
+        <div className="flex flex-col items-center space-y-2">
+          <div className="text-white/70 text-sm font-medium">Scroll</div>
+          <div className="w-6 h-6 border-2 border-white/50 border-t-0 border-l-0 transform rotate-45"></div>
         </div>
       </div>
     </section>

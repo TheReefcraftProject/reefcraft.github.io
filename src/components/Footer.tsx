@@ -3,7 +3,7 @@ import { Heart, Github as GitHub, MessageCircle, Mail, Globe } from 'lucide-reac
 
 const Footer = () => {
   return (
-    <footer className="bg-ocean-900 text-white py-12">
+    <footer className="text-white py-12" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
@@ -21,7 +21,7 @@ const Footer = () => {
               </p>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/reefcraft"
+                  href="https://github.com/TheReefcraftProject"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-ocean-800 p-3 rounded-full hover:bg-coral-500 transition-colors duration-200 transform hover:scale-110"
