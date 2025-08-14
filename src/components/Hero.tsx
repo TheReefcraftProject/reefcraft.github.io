@@ -14,7 +14,7 @@ const Hero = () => {
       {/* Coral Reef Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="./public/WhatsApp Image 2025-07-22 at 19.40.16.jpeg" 
+          src="./public/5842282798_aa6b923c04_b.jpg" 
           alt="Coral reef background"
           className="w-full h-full object-cover opacity-100"
         />
