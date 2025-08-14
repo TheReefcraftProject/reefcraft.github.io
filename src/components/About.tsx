@@ -64,7 +64,7 @@ const About = () => {
           </div>
 
           {/* Our Story */}
-          <div className="bg-gradient-to-r from-ocean-600 to-teal-600 rounded-3xl shadow-xl overflow-hidden">
+          <div className="rounded-3xl shadow-xl overflow-hidden" style={{ backgroundColor: '#2C4F59' }}>
             <div className="grid md:grid-cols-2 items-center">
               <div className="p-12 text-white">
                 <h3 className="text-3xl font-bold mb-6">
