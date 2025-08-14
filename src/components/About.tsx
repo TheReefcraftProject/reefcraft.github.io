@@ -104,7 +104,7 @@ const About = () => {
             <h3 className="text-3xl font-bold text-white mb-6">
               Vision for the Future
             </h3>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white max-w-4xl mx-auto leading-relaxed">
               We envision a world where digital reef simulations help guide restoration efforts, 
               where students can explore coral ecosystems in immersive detail, and where 
               researchers can test conservation strategies before implementing them in the real world. 
