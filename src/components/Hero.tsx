@@ -47,20 +47,20 @@ const Hero = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-coral-400 mb-1">Open</div>
-                <div className="text-ocean-200 text-sm">Source Platform</div>
+                <div className="text-2xl font-bold text-white mb-1">Open</div>
+                <div className="text-white text-sm">Source Platform</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-teal-400 mb-1">Science</div>
-                <div className="text-ocean-200 text-sm">Based Models</div>
+                <div className="text-2xl font-bold text-white mb-1">Science</div>
+                <div className="text-white text-sm">Based Models</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-coral-400 mb-1">Global</div>
-                <div className="text-ocean-200 text-sm">Community</div>
+                <div className="text-2xl font-bold text-white mb-1">Global</div>
+                <div className="text-white text-sm">Community</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl">
-                <div className="text-2xl font-bold text-teal-400 mb-1">Real</div>
-                <div className="text-ocean-200 text-sm">Impact</div>
+                <div className="text-2xl font-bold text-white mb-1">Real</div>
+                <div className="text-white text-sm">Impact</div>
               </div>
             </div>
           </div>
