@@ -77,7 +77,7 @@ const Science = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="./public/5842282798_aa6b923c04_b.jpg" 
+                  src="/5842282798_aa6b923c04_b.jpg" 
                   alt="Close-up of coral polyps"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />

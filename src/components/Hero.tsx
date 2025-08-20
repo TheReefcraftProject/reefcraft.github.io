@@ -14,7 +14,7 @@ const Hero = () => {
       {/* Coral Reef Background */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
-          src="./public/5842282798_aa6b923c04_b.jpg" 
+          src="/5842282798_aa6b923c04_b.jpg" 
           alt="Coral reef background"
           className="w-full h-full object-cover opacity-100"
         />

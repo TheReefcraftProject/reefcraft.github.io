@@ -90,7 +90,7 @@ const About = () => {
               <div className="relative h-96 md:h-full">
                 <div className="absolute inset-0 bg-gradient-to-br from-coral-400/20 to-teal-400/20"></div>
                 <img 
-                  src="./public/5842282798_aa6b923c04_b.jpg" 
+                  src="/5842282798_aa6b923c04_b.jpg" 
                   alt="Vibrant coral reef ecosystem"
                   className="w-full h-full object-cover"
                 />
