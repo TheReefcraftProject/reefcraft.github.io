@@ -10,7 +10,9 @@ const Footer = () => {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-10 h-10 bg-gradient-to-br from-coral-500 to-coral-600 rounded-lg flex items-center justify-center">
-                  <div className="w-6 h-6 bg-white rounded-full opacity-80"></div>
+                  <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
+                    <img src="/logo_converted.png" alt="Reefcraft Logo" className="w-6 h-6" />
+                  </div>
                 </div>
                 <div className="text-2xl font-bold text-coral-400">Reefcraft</div>
               </div>
