@@ -71,7 +71,7 @@ const Contact = () => {
 
             {/* Contact Info & Community */}
             <div className="space-y-8">
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+              <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
                 <h3 className="text-2xl font-bold text-white mb-6">Connect with us</h3>
                 <div className="space-y-6">
                   <a
