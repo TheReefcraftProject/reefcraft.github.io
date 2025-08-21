@@ -73,7 +73,8 @@ const Impact = () => {
             {visionPoints.map((point, index) => (
               <div
                 key={index}
-                className="group bg-ocean-700 hover:bg-ocean-600 p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                className="group p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
                   {point.icon}
