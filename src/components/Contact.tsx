@@ -7,10 +7,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-700 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Let's Protect Reefs Together
             </h2>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
               Have questions about Reefcraft? Want to collaborate? Looking to support our mission? 
               We'd love to hear from you and explore how we can work together to save coral reefs.
             </p>
@@ -18,22 +18,22 @@ const Contact = () => {
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-              <h3 className="text-2xl font-bold text-gray-700 mb-8">Send us a message</h3>
+            <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
+              <h3 className="text-2xl font-bold text-white mb-8">Send us a message</h3>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <input
                       type="text"
                       placeholder="First Name"
-                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-coral-400"
+                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                     />
                   </div>
                   <div>
                     <input
                       type="text"
                       placeholder="Last Name"
-                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-coral-400"
+                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                     />
                   </div>
                 </div>
@@ -41,11 +41,11 @@ const Contact = () => {
                   <input
                     type="email"
                     placeholder="Email Address"
-                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-coral-400"
+                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                   />
                 </div>
                 <div>
-                  <select className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-gray-700 focus:outline-none focus:ring-2 focus:ring-coral-400">
+                  <select className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white focus:outline-none focus:ring-2 focus:ring-coral-400">
                     <option value="" className="text-gray-800">I'm interested in...</option>
                     <option value="contributing" className="text-gray-800">Contributing to the project</option>
                     <option value="research" className="text-gray-800">Research collaboration</option>
@@ -59,7 +59,7 @@ const Contact = () => {
                   <textarea
                     rows={6}
                     placeholder="Tell us about your interest in Reefcraft and how you'd like to get involved..."
-                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-coral-400 resize-none"
+                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400 resize-none"
                   ></textarea>
                 </div>
                 <button className="group w-full bg-coral-500 text-white py-4 px-8 rounded-lg font-semibold text-lg hover:bg-coral-600 transition-all duration-200 flex items-center justify-center transform hover:scale-105">
@@ -71,8 +71,8 @@ const Contact = () => {
 
             {/* Contact Info & Community */}
             <div className="space-y-8">
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold text-gray-700 mb-6">Connect with us</h3>
+              <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
+                <h3 className="text-2xl font-bold text-white mb-6">Connect with us</h3>
                 <div className="space-y-6">
                   <a
                     href="mailto:reefcraft.ai@gmail.com"
@@ -82,8 +82,8 @@ const Contact = () => {
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-gray-700 font-semibold">Email</div>
-                      <div className="text-gray-700">reefcraft.ai@gmail.com</div>
+                      <div className="text-white font-semibold">Email</div>
+                      <div className="text-white">reefcraft.ai@gmail.com</div>
                     </div>
                   </a>
                   
@@ -97,8 +97,8 @@ const Contact = () => {
                       <GitHub className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-gray-700 font-semibold">GitHub</div>
-                      <div className="text-gray-700">Contribute to the codebase</div>
+                      <div className="text-white font-semibold">GitHub</div>
+                      <div className="text-white">Contribute to the codebase</div>
                     </div>
                   </a>
                   
@@ -112,34 +112,34 @@ const Contact = () => {
                       <MessageCircle className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-gray-700 font-semibold">Discord</div>
-                      <div className="text-gray-700">Join our community chat</div>
+                      <div className="text-white font-semibold">Discord</div>
+                      <div className="text-white">Join our community chat</div>
                     </div>
                   </a>
                 </div>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-                <h4 className="text-xl font-bold text-gray-700 mb-6">Our Community</h4>
-                <div className="space-y-4 text-gray-700">
+              <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
+                <h4 className="text-xl font-bold text-white mb-6">Our Community</h4>
+                <div className="space-y-4 text-white">
                   <div className="flex items-center">
-                    <Globe className="w-5 h-5 mr-3 text-coral-400" />
+                    <Globe className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>Based in Boulder, Colorado</span>
                   </div>
                   <div className="flex items-center">
-                    <Heart className="w-5 h-5 mr-3 text-coral-400" />
+                    <Heart className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>100% volunteer-driven</span>
                   </div>
                   <div className="flex items-center">
-                    <MessageCircle className="w-5 h-5 mr-3 text-coral-400" />
+                    <MessageCircle className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>Coral lover community</span>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
-                <h4 className="text-xl font-bold text-gray-700 mb-4">Partnership Opportunities</h4>
-                <p className="text-gray-700 leading-relaxed mb-4">
+              <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
+                <h4 className="text-xl font-bold text-white mb-4">Partnership Opportunities</h4>
+                <p className="text-white leading-relaxed mb-4">
                   We're always looking for partnerships with research institutions, 
                   conservation organizations, educational institutions, and technology companies 
                   who share our mission.

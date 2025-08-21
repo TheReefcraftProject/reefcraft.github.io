@@ -29,14 +29,6 @@ const Footer = () => {
                   <GitHub className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://discord.gg/reefcraft"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-ocean-800 p-3 rounded-full hover:bg-coral-500 transition-colors duration-200 transform hover:scale-110"
-                >
-                  <MessageCircle className="w-5 h-5" />
-                </a>
-                <a
                   href="mailto:reefcraft.ai@gmail.com"
                   className="bg-ocean-800 p-3 rounded-full hover:bg-coral-500 transition-colors duration-200 transform hover:scale-110"
                 >
@@ -78,7 +70,7 @@ const Footer = () => {
                 © 2025 Reefcraft. Open source under MIT License.
               </p>
               <p className="text-ocean-200 flex items-center">
-                Made with <Heart className="w-4 h-4 text-teal-400 mx-1" /> for our oceans
+                Made with <Heart className="w-4 h-4 mx-1" style={{ color: '#C1D3BD' }} /> for our oceans
               </p>
             </div>
             <div className="mt-4 text-center">

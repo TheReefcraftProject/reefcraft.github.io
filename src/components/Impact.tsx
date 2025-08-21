@@ -33,14 +33,15 @@ const Impact = () => {
   ];
 
   return (
-    <section id="impact" className="py-20" style={{ backgroundColor: '#100F0D' }}>
+    <section id="impact" className="py-12 pt-24" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Vision for the Future
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white
+              max-w-4xl mx-auto leading-relaxed">
               We're building more than just software—we're creating tools that could fundamentally 
               change how we understand, protect, and restore coral reef ecosystems around the world.
             </p>
@@ -50,7 +51,7 @@ const Impact = () => {
           <div className="bg-gradient-to-r from-coral-500 to-coral-600 rounded-3xl p-12 text-white mb-16">
             <div className="text-center mb-12">
               <h3 className="text-3xl font-bold mb-6">The Coral Crisis</h3>
-              <p className="text-xl text-coral-100 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
                 Coral reefs are disappearing at an alarming rate due to climate change, pollution, 
                 and human activity. But with the right tools and collective action, we can still 
                 make a difference.
@@ -61,7 +62,7 @@ const Impact = () => {
               {impactStats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
-                  <div className="text-coral-200 leading-tight">{stat.label}</div>
+                  <div className="text-white leading-tight">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -72,7 +73,8 @@ const Impact = () => {
             {visionPoints.map((point, index) => (
               <div
                 key={index}
-                className="group bg-ocean-700 hover:bg-ocean-600 p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                className="group p-8 rounded-2xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 border border-ocean-600 hover:border-coral-400"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
                   {point.icon}
@@ -80,7 +82,7 @@ const Impact = () => {
                 <h3 className="text-2xl font-bold text-white mb-4">
                   {point.title}
                 </h3>
-                <p className="text-ocean-200 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {point.description}
                 </p>
               </div>
@@ -94,7 +96,7 @@ const Impact = () => {
                 <h3 className="text-3xl font-bold mb-6">
                   Imagine the Possibilities
                 </h3>
-                <div className="space-y-4 text-ocean-200 leading-relaxed">
+                <div className="space-y-4 text-white leading-relaxed">
                   <p>
                     Marine biologists testing restoration techniques in virtual reefs before 
                     deploying them in the ocean
@@ -132,7 +134,7 @@ const Impact = () => {
             <h3 className="text-3xl font-bold text-white mb-6">
               Together, We Can Save Our Reefs
             </h3>
-            <p className="text-xl text-ocean-100 max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed mb-8">
               Every line of code, every scientific insight, every shared story brings us closer 
               to a future where coral reefs thrive. Join us in building the tools that could 
               help save one of Earth's most precious ecosystems.
@@ -141,7 +143,7 @@ const Impact = () => {
               <button className="bg-coral-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-600 transition-colors duration-200 transform hover:scale-105">
                 Start Contributing Today
               </button>
-              <button className="border-2 border-coral-400 text-coral-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-400 hover:text-white transition-colors duration-200">
+              <button className="border-2 border-coral-400 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-400 hover:text-white transition-colors duration-200">
                 Learn More About Our Impact
               </button>
             </div>

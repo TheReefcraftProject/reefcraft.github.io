@@ -25,10 +25,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Bringing Coral Reefs to Life
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-400 to-teal-400">
-                {' '}in the Digital World
-              </span>
+              Bringing Coral Reefs to Life in the Digital World
             </h1>
             
             <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed">
@@ -64,14 +61,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="flex flex-col items-center space-y-2">
-          <div className="text-white/70 text-sm font-medium">Scroll</div>
-          <div className="w-6 h-6 border-2 border-white/50 border-t-0 border-l-0 transform rotate-45"></div>
         </div>
       </div>
     </section>
