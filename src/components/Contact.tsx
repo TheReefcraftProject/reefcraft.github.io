@@ -137,7 +137,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+              <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
                 <h4 className="text-xl font-bold text-white mb-4">Partnership Opportunities</h4>
                 <p className="text-white leading-relaxed mb-4">
                   We're always looking for partnerships with research institutions, 
