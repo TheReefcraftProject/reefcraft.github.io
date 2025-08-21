@@ -39,7 +39,7 @@ const GetInvolved = () => {
   ];
 
   return (
-    <section id="get-involved" className="py-40" style={{ backgroundColor: '#100F0D' }}>
+    <section id="get-involved" className="py-1" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
