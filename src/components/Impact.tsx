@@ -40,7 +40,8 @@ const Impact = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Vision for the Future
             </h2>
-            <p className="text-xl text-ocean-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-white
+              max-w-4xl mx-auto leading-relaxed">
               We're building more than just software—we're creating tools that could fundamentally 
               change how we understand, protect, and restore coral reef ecosystems around the world.
             </p>
