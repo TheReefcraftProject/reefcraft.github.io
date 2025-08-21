@@ -29,14 +29,6 @@ const Footer = () => {
                   <GitHub className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://discord.gg/reefcraft"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-ocean-800 p-3 rounded-full hover:bg-coral-500 transition-colors duration-200 transform hover:scale-110"
-                >
-                  <MessageCircle className="w-5 h-5" />
-                </a>
-                <a
                   href="mailto:reefcraft.ai@gmail.com"
                   className="bg-ocean-800 p-3 rounded-full hover:bg-coral-500 transition-colors duration-200 transform hover:scale-110"
                 >
