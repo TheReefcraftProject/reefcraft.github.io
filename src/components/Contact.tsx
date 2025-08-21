@@ -33,7 +33,7 @@ const Contact = () => {
                     <input
                       type="text"
                       placeholder="Last Name"
-                     className="w-full p-4 rounded-lg bg-white/20 border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
+                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                     />
                   </div>
                 </div>
@@ -41,11 +41,11 @@ const Contact = () => {
                   <input
                     type="email"
                     placeholder="Email Address"
-                   className="w-full p-4 rounded-lg bg-white/20 border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
+                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                   />
                 </div>
                 <div>
-                 <select className="w-full p-4 rounded-lg bg-white/20 border border-white text-white focus:outline-none focus:ring-2 focus:ring-coral-400">
+                  <select className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white focus:outline-none focus:ring-2 focus:ring-coral-400">
                     <option value="" className="text-gray-800">I'm interested in...</option>
                     <option value="contributing" className="text-gray-800">Contributing to the project</option>
                     <option value="research" className="text-gray-800">Research collaboration</option>
@@ -59,7 +59,7 @@ const Contact = () => {
                   <textarea
                     rows={6}
                     placeholder="Tell us about your interest in Reefcraft and how you'd like to get involved..."
-                   className="w-full p-4 rounded-lg bg-white/20 border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400 resize-none"
+                    className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400 resize-none"
                   ></textarea>
                 </div>
                 <button className="group w-full bg-coral-500 text-white py-4 px-8 rounded-lg font-semibold text-lg hover:bg-coral-600 transition-all duration-200 flex items-center justify-center transform hover:scale-105">
