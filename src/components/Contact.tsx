@@ -147,7 +147,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
+            <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
       </div>
     </section>
   );
