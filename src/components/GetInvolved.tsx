@@ -76,7 +76,7 @@ const GetInvolved = () => {
                     {area.skills.map((skill, idx) => (
                       <span
                         key={idx}
-                        className="px-3 py-1 bg-coral-100 text-coral-700 rounded-full text-sm font-medium"
+                        className="px-3 py-1 bg-coral-100 text-white rounded-full text-sm font-medium"
                       >
                         {skill}
                       </span>
