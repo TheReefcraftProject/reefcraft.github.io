@@ -42,7 +42,7 @@ const Footer = () => {
               <ul className="space-y-3 text-ocean-200">
                 {['About Us', 'The Science', 'Get Involved', 'Impact', 'Documentation'].map((item) => (
                   <li key={item}>
-                    <button className="hover:text-teal-400 transition-colors duration-200">
+                    <button className="transition-colors duration-200" style={{ color: 'inherit' }} onMouseEnter={(e) => e.target.style.color = '#C1D3BD'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>
                       {item}
                     </button>
                   </li>
@@ -55,7 +55,7 @@ const Footer = () => {
               <ul className="space-y-3 text-ocean-200">
                 {['GitHub Repository', 'Discord Chat', 'Contributors', 'Blog', 'Contact'].map((item) => (
                   <li key={item}>
-                    <button className="hover:text-teal-400 transition-colors duration-200">
+                    <button className="transition-colors duration-200" style={{ color: 'inherit' }} onMouseEnter={(e) => e.target.style.color = '#C1D3BD'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>
                       {item}
                     </button>
                   </li>
