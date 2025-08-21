@@ -26,7 +26,7 @@ const Contact = () => {
                     <input
                       type="text"
                       placeholder="First Name"
-                      className="w-full p-4 rounded-lg bg-white/20 border border-white text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
+                      className="w-full p-4 rounded-lg bg-white/20 border border-coral-500 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-coral-400"
                     />
                   </div>
                   <div>
