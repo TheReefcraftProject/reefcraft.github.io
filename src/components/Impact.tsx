@@ -142,7 +142,6 @@ const Impact = () => {
               <button className="bg-coral-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-600 transition-colors duration-200 transform hover:scale-105">
                 Start Contributing Today
               </button>
-              <button className="border-2 border-coral-400 text-coral-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-400 hover:text-white transition-colors duration-200">
               <button className="border-2 border-coral-400 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-coral-400 hover:text-white transition-colors duration-200">
                 Learn More About Our Impact
               </button>
