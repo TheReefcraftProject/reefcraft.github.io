@@ -95,7 +95,8 @@ const Impact = () => {
                 <h3 className="text-3xl font-bold mb-6">
                   Imagine the Possibilities
                 </h3>
-                <div className="space-y-4 text-ocean-200 leading-relaxed">
+                <div className="space-y-4 text-white
+                  leading-relaxed">
                   <p>
                     Marine biologists testing restoration techniques in virtual reefs before 
                     deploying them in the ocean
