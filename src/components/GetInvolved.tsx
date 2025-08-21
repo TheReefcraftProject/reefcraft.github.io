@@ -115,7 +115,8 @@ const GetInvolved = () => {
                 href="https://discord.gg/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-white/20 backdrop-blur-sm p-6 rounded-xl hover:bg-white/30 transition-all duration-200 transform hover:scale-105"
+                className="group p-6 rounded-xl hover:bg-white/30 transition-all duration-200 transform hover:scale-105"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <MessageCircle className="w-8 h-8 text-white mx-auto mb-4 group-hover:scale-110 transition-transform duration-200" />
                 <div className="font-semibold text-lg mb-2">Discord</div>
@@ -124,7 +125,8 @@ const GetInvolved = () => {
               
               <a
                 href="mailto:reefcraft.ai@gmail.com"
-                className="group bg-white/20 backdrop-blur-sm p-6 rounded-xl hover:bg-white/30 transition-all duration-200 transform hover:scale-105"
+                className="group p-6 rounded-xl hover:bg-white/30 transition-all duration-200 transform hover:scale-105"
+                style={{ backgroundColor: '#2C4F59' }}
               >
                 <Mail className="w-8 h-8 text-white mx-auto mb-4 group-hover:scale-110 transition-transform duration-200" />
                 <div className="font-semibold text-lg mb-2">Email</div>
