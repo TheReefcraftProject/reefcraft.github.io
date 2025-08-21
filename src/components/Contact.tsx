@@ -18,7 +18,7 @@ const Contact = () => {
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
+            <div className="backdrop-blur-sm p-8 rounded-2xl" style={{ backgroundColor: '#2C4F59' }}>
               <h3 className="text-2xl font-bold text-white mb-8">Send us a message</h3>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
