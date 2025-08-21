@@ -70,7 +70,7 @@ const Footer = () => {
                 © 2025 Reefcraft. Open source under MIT License.
               </p>
               <p className="text-ocean-200 flex items-center">
-                Made with <Heart className="w-4 h-4 text-teal-400 mx-1" /> for our oceans
+                Made with <Heart className="w-4 h-4 mx-1" style={{ color: '#C1D3BD' }} /> for our oceans
               </p>
             </div>
             <div className="mt-4 text-center">
