@@ -47,9 +47,11 @@ const Header = () => {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
-                className={`font-medium transition-colors duration-200 hover:text-teal-500 ${
+                className={`font-medium transition-colors duration-200 ${
                   isScrolled ? 'text-white' : 'text-white'
                 }`}
+                onMouseEnter={(e) => e.target.style.color = '#C1D3BD'}
+                onMouseLeave={(e) => e.target.style.color = 'white'}
               >
                 {item}
               </button>
@@ -59,9 +61,11 @@ const Header = () => {
                 href="https://github.com/TheReefcraftProject"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
+                className={`p-2 rounded-lg transition-colors duration-200 ${
                   isScrolled ? 'text-white' : 'text-white'
                 }`}
+                onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(193, 211, 189, 0.2)'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
               >
                 <GitHub className="w-5 h-5" />
               </a>
@@ -69,9 +73,11 @@ const Header = () => {
                 href="https://discord.gg/reefcraft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-2 rounded-lg transition-colors duration-200 hover:bg-teal-500/20 ${
+                className={`p-2 rounded-lg transition-colors duration-200 ${
                   isScrolled ? 'text-white' : 'text-white'
                 }`}
+                onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(193, 211, 189, 0.2)'}
+                onMouseLeave={(e) => e.target.style.backgroundColor = 'transparent'}
               >
                 <MessageCircle className="w-5 h-5" />
               </a>
