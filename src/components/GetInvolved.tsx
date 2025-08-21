@@ -39,7 +39,7 @@ const GetInvolved = () => {
   ];
 
   return (
-    <section id="get-involved" className="py-1" style={{ backgroundColor: '#100F0D' }}>
+    <section id="get-involved" className="py-12" style={{ backgroundColor: '#100F0D' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -58,7 +58,7 @@ const GetInvolved = () => {
             {contributionAreas.map((area, index) => (
               <div
                 key={index}
-                className="group p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-sand-200"
+                className="group p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white"
                 style={{ backgroundColor: '#2C4F59' }}
               >
                 <div className="text-coral-500 mb-6 group-hover:scale-110 transition-transform duration-200">
