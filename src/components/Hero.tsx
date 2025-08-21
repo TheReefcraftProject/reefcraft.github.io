@@ -25,10 +25,7 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Bringing Coral Reefs to Life
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-coral-400 to-teal-400">
-                {' '}in the Digital World
-              </span>
+              Bringing Coral Reefs to Life in the Digital World
             </h1>
             
             <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed">
