@@ -71,7 +71,7 @@ const GetInvolved = () => {
                   {area.description}
                 </p>
                 <div className="space-y-2">
-                  <div className="text-sm font-semibold text-ocean-100 mb-2">Skills we need:</div>
+                  <div className="text-sm font-semibold text-white mb-2">Skills we need:</div>
                   <div className="flex flex-wrap gap-2">
                     {area.skills.map((skill, idx) => (
                       <span
