@@ -51,7 +51,7 @@ const Impact = () => {
           <div className="bg-gradient-to-r from-coral-500 to-coral-600 rounded-3xl p-12 text-white mb-16">
             <div className="text-center mb-12">
               <h3 className="text-3xl font-bold mb-6">The Coral Crisis</h3>
-              <p className="text-xl text-coral-100 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
                 Coral reefs are disappearing at an alarming rate due to climate change, pollution, 
                 and human activity. But with the right tools and collective action, we can still 
                 make a difference.
@@ -62,7 +62,7 @@ const Impact = () => {
               {impactStats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-4xl font-bold text-white mb-2">{stat.number}</div>
-                  <div className="text-coral-200 leading-tight">{stat.label}</div>
+                  <div className="text-white leading-tight">{stat.label}</div>
                 </div>
               ))}
             </div>
