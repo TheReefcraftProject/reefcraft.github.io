@@ -7,7 +7,7 @@ const GetInvolved = () => {
       icon: <Code className="w-8 h-8" />,
       title: "Developers",
       description: "Help build simulation algorithms, improve performance, or create new visualization tools.",
-      skills: ["JavaScript/TypeScript", "Python", "WebGL", "Scientific Computing"]
+      skills: ["JavaScript/TypeScript", "Python", "Scientific Computing"]
     },
     {
       icon: <Microscope className="w-8 h-8" />,
