@@ -67,7 +67,7 @@ const GetInvolved = () => {
                 <h3 className="text-2xl font-bold text-white mb-4">
                   {area.title}
                 </h3>
-                <p className="text-ocean-200 mb-6 leading-relaxed">
+                <p className="text-white mb-6 leading-relaxed">
                   {area.description}
                 </p>
                 <div className="space-y-2">
