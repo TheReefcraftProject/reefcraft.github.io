@@ -81,7 +81,7 @@ const Impact = () => {
                 <h3 className="text-2xl font-bold text-white mb-4">
                   {point.title}
                 </h3>
-                <p className="text-ocean-200 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {point.description}
                 </p>
               </div>
@@ -95,8 +95,7 @@ const Impact = () => {
                 <h3 className="text-3xl font-bold mb-6">
                   Imagine the Possibilities
                 </h3>
-                <div className="space-y-4 text-white
-                  leading-relaxed">
+                <div className="space-y-4 text-white leading-relaxed">
                   <p>
                     Marine biologists testing restoration techniques in virtual reefs before 
                     deploying them in the ocean
@@ -134,7 +133,7 @@ const Impact = () => {
             <h3 className="text-3xl font-bold text-white mb-6">
               Together, We Can Save Our Reefs
             </h3>
-            <p className="text-xl text-ocean-100 max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed mb-8">
               Every line of code, every scientific insight, every shared story brings us closer 
               to a future where coral reefs thrive. Join us in building the tools that could 
               help save one of Earth's most precious ecosystems.
