@@ -123,15 +123,15 @@ const Contact = () => {
                 <h4 className="text-xl font-bold text-white mb-6">Our Community</h4>
                 <div className="space-y-4 text-white">
                   <div className="flex items-center">
-                    <Globe className="w-5 h-5 mr-3 text-coral-400" />
+                    <Globe className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>Based in Boulder, Colorado</span>
                   </div>
                   <div className="flex items-center">
-                    <Heart className="w-5 h-5 mr-3 text-coral-400" />
+                    <Heart className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>100% volunteer-driven</span>
                   </div>
                   <div className="flex items-center">
-                    <MessageCircle className="w-5 h-5 mr-3 text-coral-400" />
+                    <MessageCircle className="w-5 h-5 mr-3" style={{ color: '#C1D3BD' }} />
                     <span>Coral lover community</span>
                   </div>
                 </div>
