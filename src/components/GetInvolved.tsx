@@ -136,7 +136,7 @@ const GetInvolved = () => {
 
             <div className="mt-8 pt-8 border-t border-white/20">
               <p className="text-ocean-200 flex items-center justify-center">
-                Made with <Heart className="w-4 h-4 text-coral-400 mx-2" /> by ocean lovers worldwide
+                Made with <Heart className="w-4 h-4 mx-2" style={{ color: '#C1D3BD' }} /> by ocean lovers worldwide
               </p>
             </div>
           </div>
